@@ -116,6 +116,7 @@ input {
     padding-right: 6px;
 }
 
+.hours_container .svg-inline--fa,
 .weekdays_container .svg-inline--fa {
     font-size: 25px;
 }

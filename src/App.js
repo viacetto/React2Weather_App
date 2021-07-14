@@ -51,7 +51,7 @@ function App() {
           setWeatherHour(data.list);
         })
 
-        fetch(`http://nominatim.openstreetmap.org/search?q=${query}&format=json&polygon=1&addressdetails=1`)
+        fetch(`https://nominatim.openstreetmap.org/search?q=${query}&format=json&polygon=1&addressdetails=1`)
         .then(res => res.json())
         .then((data) => {
           return {lat:data[0].lat,lon:data[0].lon}

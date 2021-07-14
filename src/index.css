@@ -1,0 +1,214 @@
+@font-face {
+    font-family: Oswald-VariableFont_wght;
+    src: url("./assets/fonts/Oswald-VariableFont_wght/Oswald-VariableFont_wght.ttf") format("opentype");
+}
+
+body,
+input {
+    all: initial;
+    all: unset;
+    font-family: Oswald-VariableFont_wght;
+    letter-spacing: 1mm;
+    font-size: 15px;
+    color: #d8c072;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.app {
+    background: rgba(0, 0, 0, .40) url('./assets/cold.jpg');
+    background-blend-mode: darken;
+    background-size: cover;
+    height: 100vh;
+    transition: 0.3s ease-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.app.warm {
+    background-image: url('./assets/warm.jpg');
+}
+
+main {
+    padding: 50px;
+}
+
+.temp,
+.tempXs {
+    position: relative;
+}
+
+.temp:after {
+    content: "°";
+    display: block;
+    position: absolute;
+    top: -13px;
+    right: -21px;
+    font-weight: 100;
+}
+
+.tempXs:after {
+    content: "°";
+    display: block;
+    position: absolute;
+    top: -7px;
+    right: -9px;
+    font-weight: 100;
+}
+
+
+/* search bar*/
+
+
+/*  */
+
+.search_wrapper {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 1s;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 1px solid #d8c072;
+    padding: 5px;
+    text-align: right;
+    margin: 50px 0;
+}
+
+input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 42.5px;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    display: none;
+    font-size: 1em;
+    border-radius: 20px;
+    caret-color: #d8c072;
+}
+
+.fa {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 42.5px;
+    height: 42.5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    color: #07051a;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 1s;
+}
+
+.fa-search {
+    padding-top: 6px;
+    font-size: 16px;
+    padding-right: 6px;
+}
+
+.weekdays_container .svg-inline--fa {
+    font-size: 25px;
+}
+
+.search_wrapper:hover {
+    width: 200px;
+    cursor: pointer;
+}
+
+.search_wrapper:hover input {
+    display: block;
+}
+
+.search_wrapper:hover .fa {
+    background: #07051a;
+    color: white;
+}
+
+
+/*  */
+
+
+/* search bar*/
+
+.hours_container,
+.weekdays_container {
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    height: 30%;
+    background: rgba(114, 114, 114, 0);
+    transition: 0.3s ease-in;
+}
+
+.hours_container:hover,
+.weekdays_container:hover {
+    z-index: 1;
+    background: rgb(114, 114, 114);
+}
+
+.hours_container {
+    left: calc(-100vw + 44px);
+}
+
+.weekdays_container {
+    right: calc(-100vw + 44px);
+}
+
+.hours_container:hover {
+    left: 0%;
+}
+
+.weekdays_container:hover {
+    right: 0%;
+}
+
+.hours_title,
+.weekdays_title {
+    position: absolute;
+    top: 30%;
+    width: 26px;
+}
+
+.hours_title {
+    right: 8px;
+}
+
+.weekdays_title {
+    left: 12px;
+}
+
+.weekdays_wrapper,
+.hours_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.weekdays_wrapper h5,
+.hours_wrapper h5 {
+    padding: 20px 0;
+}
+
+.weekdays_wrapper {
+    padding-left: 30px;
+}
+
+.hours_wrapper {
+    padding-right: 30px;
+}
+
+.weekdays_wrapper>*,
+.hours_wrapper>* {
+    padding: 5%;
+}

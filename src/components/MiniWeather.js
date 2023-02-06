@@ -1,4 +1,5 @@
-import moment from "../../node_modules/moment";
+
+import moment from "moment";
 import WeatherIcon from "./WeatherIcon";
 
 function MiniWeather({ elData, titleClass }) {

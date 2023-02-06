@@ -1,23 +1,18 @@
 {
   "files": {
-    "main.css": "/React2Weather_App/static/css/main.05685ca1.chunk.css",
-    "main.js": "/React2Weather_App/static/js/main.6b0c22ac.chunk.js",
-    "main.js.map": "/React2Weather_App/static/js/main.6b0c22ac.chunk.js.map",
-    "runtime-main.js": "/React2Weather_App/static/js/runtime-main.6824766d.js",
-    "runtime-main.js.map": "/React2Weather_App/static/js/runtime-main.6824766d.js.map",
-    "static/js/2.717a90dd.chunk.js": "/React2Weather_App/static/js/2.717a90dd.chunk.js",
-    "static/js/2.717a90dd.chunk.js.map": "/React2Weather_App/static/js/2.717a90dd.chunk.js.map",
-    "static/js/3.e18d8259.chunk.js": "/React2Weather_App/static/js/3.e18d8259.chunk.js",
-    "static/js/3.e18d8259.chunk.js.map": "/React2Weather_App/static/js/3.e18d8259.chunk.js.map",
+    "main.css": "/React2Weather_App/static/css/main.b27b8c44.css",
+    "main.js": "/React2Weather_App/static/js/main.4214ced8.js",
+    "static/js/787.375fff65.chunk.js": "/React2Weather_App/static/js/787.375fff65.chunk.js",
+    "static/media/cold.jpg": "/React2Weather_App/static/media/cold.8218fb03684e23ced476.jpg",
+    "static/media/Oswald-VariableFont_wght.ttf": "/React2Weather_App/static/media/Oswald-VariableFont_wght.88fc6c5b10cd8b2781cb.ttf",
+    "static/media/warm.jpg": "/React2Weather_App/static/media/warm.d9d2083f6093784dd908.jpg",
     "index.html": "/React2Weather_App/index.html",
-    "static/css/main.05685ca1.chunk.css.map": "/React2Weather_App/static/css/main.05685ca1.chunk.css.map",
-    "static/js/2.717a90dd.chunk.js.LICENSE.txt": "/React2Weather_App/static/js/2.717a90dd.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/React2Weather_App/static/media/warm.d9d2083f.jpg"
+    "main.b27b8c44.css.map": "/React2Weather_App/static/css/main.b27b8c44.css.map",
+    "main.4214ced8.js.map": "/React2Weather_App/static/js/main.4214ced8.js.map",
+    "787.375fff65.chunk.js.map": "/React2Weather_App/static/js/787.375fff65.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.6824766d.js",
-    "static/js/2.717a90dd.chunk.js",
-    "static/css/main.05685ca1.chunk.css",
-    "static/js/main.6b0c22ac.chunk.js"
+    "static/css/main.b27b8c44.css",
+    "static/js/main.4214ced8.js"
   ]
 }
